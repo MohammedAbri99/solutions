@@ -1,0 +1,26 @@
+body{
+	background-color: lightcoral;
+	padding: 0;
+	margin: 0;
+}
+ul{
+	position: absolute;
+    top: 20%;
+    left:50%;
+    transform: translate(-50%,-50%)
+}
+ul li{
+	display: flex;
+	float: left;
+	padding: 5px 10px;
+	font-size: 50px;
+	border: none;
+	outline: none;
+}
+li{
+	background-color: lightcyan;
+	color: black;
+}
+li:hover{
+	color: cornflowerblue;
+}
